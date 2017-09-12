@@ -1,4 +1,4 @@
-
+package hw;
 import java.util.Scanner;
 public class fizzbuzzpt2 {
    public static void main(String[] args) {
