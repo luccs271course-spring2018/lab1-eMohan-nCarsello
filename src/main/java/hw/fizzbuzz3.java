@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class fizzbuzz3 {
  public static void main(String[] args) {
      
-
-  {
    System.out.println("input a number to determine fizzbuzz and have it entered into an array: ");
    Scanner sc = new Scanner(System.in);
    int n = sc.nextInt();
@@ -20,9 +18,9 @@ public class fizzbuzz3 {
     }
    }
   }
- }
+ 
 
- public static String[] fizzbuzz(int n) {
+ public static String[] fizzbuzzArray(final int n) {
   if (n >= 1) {
    String[] testArray = new String[n];
    for (int i = 1; i <= n; i++) {
@@ -35,7 +33,7 @@ public class fizzbuzz3 {
     } else {
      testArray[i] = String.valueOf(i);
     }
-
+     
    }
 
    return testArray;
