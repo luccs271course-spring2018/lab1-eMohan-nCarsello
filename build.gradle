@@ -13,7 +13,7 @@ apply plugin: 'com.github.ben-manes.versions'
 apply plugin: 'com.github.sherter.google-java-format'
 
 libsDirName = 'lib' // simple workaround for error in startScripts task
-mainClassName = 'hw.Main'
+mainClassName = 'hw.Simple'
 
 jar {
     manifest {
@@ -26,7 +26,7 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.+'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
 tasks.withType(JavaCompile) { 
