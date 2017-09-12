@@ -1,7 +1,8 @@
 
-  import java.util.Scanner;
 
-  public class lab1 {
+   import java.util.Scanner;
+
+   public class fizzbuzz2 {
 
 
    public static void main(String[] args) {
